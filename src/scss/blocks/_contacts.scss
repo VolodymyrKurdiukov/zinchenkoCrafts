@@ -1,0 +1,38 @@
+.contacts {
+	display: none;
+	text-align: center;
+	&__row {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__column {
+	}
+
+	&__call {
+		color: #ffd6be;
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 31.24px;
+		display: inline-block;
+		margin: 0px 0px 10px 0px;
+		
+	}
+
+	&__info {
+	}
+}
+.info-contacts {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px -25px 0 -25px;
+	&__column {
+		padding: 0px 25px;
+	}
+
+	&__info {
+		&-face {
+		}
+	}
+}
