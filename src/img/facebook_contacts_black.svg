@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="35" viewBox="0 0 24 35">
+	<defs>
+		<clipPath id="idsma">
+			<path fill="#000"
+				d="M2 32.024V2.976h20v29.048zM19.337 4h-4a6.667 6.667 0 0 0-6.667 6.667v4h-4V20h4v10.667h5.333V20h4l1.334-5.333h-5.334v-4a1.333 1.333 0 0 1 1.334-1.334h4z" />
+		</clipPath>
+	</defs>
+	<g>
+		<g>
+			<path fill="none" stroke="#000" stroke-miterlimit="20" stroke-width="8"
+				d="M19.337 4v0h-4a6.667 6.667 0 0 0-6.667 6.667v4h-4V20h4v10.667h5.333v0V20v0h4v0l1.334-5.333v0h-5.334v0-4a1.333 1.333 0 0 1 1.334-1.334h4v0z"
+				clip-path="url(&quot;#idsma&quot;)" />
+		</g>
+	</g>
+</svg>
