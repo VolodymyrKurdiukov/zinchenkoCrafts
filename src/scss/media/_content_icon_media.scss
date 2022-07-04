@@ -9,23 +9,9 @@
 }
 
 @media (max-width: 767.98px) {
-	.icons {
-		max-height: 100%;
-		padding: 0px 55px;
-		margin: 0px auto;
-		&__row {
-			flex-wrap: wrap;
-			margin: 0px -20px;
-		}
-		&__column {
-			flex: 0 0 33.333%;
-			padding: 0px 20px;
-		}
-	}
+	
 }
 
 @media (max-width: 575.98px) {
-	.icons{
-		padding: 0px 20px;
-	}
+	
 }

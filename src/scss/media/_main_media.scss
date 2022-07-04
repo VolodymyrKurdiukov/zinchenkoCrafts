@@ -1,8 +1,28 @@
 @media (min-width: 991.98px) {
-}
-@media (max-width: 1199.98px) {
+	.icons {
+		&__column {
+			&:hover {
+				transform: scale(1.2);
+			}
+		}
+	}
 }
 @media (max-width: 991.98px) {
+	.main {
+		padding: 40px 0 20px 0;
+		&__logo {
+			max-width: 350px;
+			max-height: 350px;
+		}
+		&__title {
+			margin: 16px 0px 40px 0px;
+		}
+	}
+	.icons {
+		&__column {
+			margin: 0px 0px 40px 0px;
+		}
+	}
 }
 
 @media (max-width: 767.98px) {
@@ -22,7 +42,22 @@
 			font-size: 16px;
 		}
 	}
+	.icons {
+		padding: 0px 55px;
+		margin: 0px auto;
+		&__row {
+			flex-wrap: wrap;
+			margin: 0px -20px;
+		}
+		&__column {
+			flex: 0 0 33.333%;
+			padding: 0px 20px;
+		}
+	}
 }
 
 @media (max-width: 575.98px) {
+	.icons {
+		padding: 0px 20px;
+	}
 }

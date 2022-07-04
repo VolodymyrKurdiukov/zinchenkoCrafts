@@ -8,44 +8,12 @@
 }
 @media (max-width: 991.98px) {
 	.about {
-		padding: 0px 40px;
-		&__row {
-			margin: 0px -15px;
-		}
-		&__column {
-			padding: 0px 15px;
-		}
-		&__text {
-			font-size: 25px;
-		}
-		&__photo {
-			height: 550px;
-		}
+		display: none;
 	}
 }
 
 @media (max-width: 767.98px) {
-	.about {
-		margin: 0px 0px 100px 0px;
-		&__row {
-			flex-direction: column;
-			text-align: center;
-		}
-		&__column {
-			flex: 1 1 100%;
-			&:last-child {
-				display: none;
-			}
-		}
-	}
 }
 
 @media (max-width: 575.98px) {
-	.about {
-		padding: 0px 20px;
-		&__text {
-			text-align: left;
-			font-size: 20px;
-		}
-	}
 }
