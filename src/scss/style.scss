@@ -34,7 +34,6 @@ body.lock {
 @import "blocks/contacts";
 @import "blocks/about";
 @import "blocks/shop";
-@import "blocks/aboutme";
 @import "blocks/footer";
 
 @import "media/header_media";
@@ -43,5 +42,11 @@ body.lock {
 @import "media/contacts_media";
 @import "media/about_media";
 @import "media/shop_media";
-@import "media/aboutme_media";
 @import "media/footer_media";
+
+
+@import "blocks/aboutme";
+@import "media/aboutme_media";
+
+@import "blocks/wallet";
+@import "media/wallet_media";
