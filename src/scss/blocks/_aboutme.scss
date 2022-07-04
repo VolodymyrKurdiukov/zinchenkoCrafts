@@ -1,0 +1,42 @@
+.content-aboutme {
+	padding: 100px 0px 30px 0px;
+}
+.aboutme {
+	padding: 0px 46px;
+	max-width: 898px;
+	margin: 0px auto;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	&__img {
+		text-align: center;
+		margin: 0px 0px 40px 0px;
+		img {
+			border-radius: 20px;
+			border: 5px solid rgba(50, 30, 15, 0.7);
+		}
+	}
+
+	&__text {
+		flex: 1 1 auto;
+		text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+		color: #ffd6be;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 19.35px;
+		margin: 0px 0px 35px 0px;
+	}
+
+	&__icons {
+	}
+}
+.icons {
+	&__row {
+	}
+
+	&__column {
+	}
+
+	&__item {
+	}
+}
